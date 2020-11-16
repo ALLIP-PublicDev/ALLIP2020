@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+.muted {
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-image: url(../images/footerlogo.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    ;
+}
+
+/*YS add*/
+/*reset*/
+.container ul,
+.container li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*reset end*/
+
+.container > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container > ul > li {
+    float: left;
+    width: 22%;
+    height: 20vw;
+    box-sizing: border-box;
+    color: black;
+    margin-left: 2.2%;
+    margin-bottom: 3%;
+    text-align: center;
+    line-height: 15px;
+}
+
+.container > ul > li > a {
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    padding-top: 15vw;
+    box-sizing: border-box;
+}
+
+.container > ul > li {
+
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+
+.container > ul > li:nth-child(1) {
+    background-image: url(../images/dragoneyeproduct.png);
+}
+
+.container > ul > li:nth-child(2) {
+    background-image: url(../images/pimaxproduct.jpg);
+    background-size: 80%;
+}
+
+.container > ul > li:nth-child(3) {
+    background-image: url(../images/leapmotionproduct.jpg);
+    background-size: 80%;
+}
+
+.container > ul > li:nth-child(4) {
+    background-image: url(../images/allipz6product.jpg);
+    background-size: 80%;
+}
+
+.container > ul > li:nth-child(5) {
+    background-image: url(../images/noloproduct.jpg);
+}
+
+.container > ul > li:nth-child(6) {
+    background-image: url(../images/education.jpg);
+}
+
+.container > ul > li:nth-child(7) {
+    background-image: url(../images/evershop.png);
+}
+
+.container > ul > li:nth-child(8) {
+    background-image: url(../images/simulator.jpg);
+}
+
+.container > ul > li > a:hover {
+    box-shadow: 0.5px 0.5px 3px rgba(175, 175, 175, 0.5);
+    color: #22a0da;
+    
+}
+
+.container > ul > li > a > span {
+    display: block;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+#layout-footer {
+    background-color: #555555;
+}
+
+
+
+
+.goal {
+    padding-left: 40px;
+    background-image: url(../images/mission.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px center;
+}
+
+.vision {
+    padding-left: 40px;
+    background-image: url(../images/diamond.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px center;
+}
+
+
+.vrBanner {
+
+
+    width: 100%;
+    height: 15vw;
+    text-align: center;
+    font-size: 15vw;
+    font-weight: 600;
+    line-height: 12vw;
+
+    color: rgba(34, 160, 218, 0.54);
+}
+
+#footer {
+    padding-top: 30px;
+    background-color: white;
+
+}
+
+#footer p {
+    color: black;
+}
+
+#cloudcs {
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 50px;
+}
+
+
+.description .form-control {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.description dd {
+    padding: 20px 0;
+    font-weight: normal;
+}
+
+.description dt {
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.description input {
+    width: 30%;
+    text-align: center;
+    border: none;
+    border-style: double;
+    border-color: #22a0da;
+    border-width: medium;
+    border-radius: 20px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.description textarea {
+    border: none;
+    border-style: double;
+    border-color: #22a0da;
+    border-width: medium;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.custombutton {
+    width: 200px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #22a0da;
+    color: white;
+    border: 1px solid #e5e5e5;
+}
+
+
+/*  <pre>{{ "{% partial \"site/footer\" %}" }}</pre> html 불러오기 방법.*/
+.partnership ul,
+.partnership li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.partnership {
+    text-align: center;
+}
+
+.partnership h3 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.partnership {
+    background-color: #22a0da;
+    margin-bottom: 1px;
+    height: 30rem;
+    width: 100%
+}
+
+.partnership > ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.partnership > ul > li {
+    float: left;
+    width: 16%;
+    height: 5vw;
+    margin-right: 5%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-size: 60%;
+    max-width: 260px;
+    min-width: 180px;
+}
+
+.partnership > ul > li:nth-child(5) {
+    margin-right: 0;
+    padding-bottom: 20px;
+}
+
+.partnership > ul > li:nth-child(10) {
+    margin-right: 0;
+}
+
+.partnership > ul > li:nth-child(1) {
+    background-image: url(../images/pimaxlogo.png);
+}
+
+.partnership > ul > li:nth-child(2) {
+    background-image: url(../images/dragoneyelogo.png);
+}
+
+.partnership > ul > li:nth-child(3) {
+    background-image: url(../images/nolologo.png);
+}
+
+.partnership > ul > li:nth-child(4) {
+    background-image: url(../images/ultraleaplogo.png);
+}
+
+.partnership > ul > li:nth-child(5) {
+    background-image: url(../images/vrglogo.png);
+}
+
+.partnership > ul > li:nth-child(6) {
+    background-image: url(../images/mediafrontlogo.png);
+}
+
+.partnership > ul > li:nth-child(7) {
+    background-image: url(../images/skologo.png);
+}
+
+.partnership > ul > li:nth-child(8) {
+    background-image: url(../images/pnilogo.png);
+}
+
+.partnership > ul > li:nth-child(9) {
+    background-image: url(../images/antilogo.png);
+}
+
+.partnership > ul > li:nth-child(10) {
+    background-image: url(../images/mdlogo.png);
+}
+
+.mainVedio {position : absolute; box-sizing: inherit;z-index: -9999;}
+
+
+.welcome{height :20vw;}

@@ -1,0 +1,25 @@
+1605512395a:1:{s:9:"pimax.htm";a:8:{s:8:"fileName";s:9:"pimax.htm";s:7:"content";s:311:"title = "Pimax"
+url = "/pimax"
+layout = "pimax"
+==
+
+<div class="copyToOculus">
+    <p class="mainText">정밀하고 시원한 VR <br>
+        동영상 감상 유저를 위한 <br>최고의 성능</p>
+</div>
+<div class="pimaxbox">
+    <img src="../../../storage/app/media/pimaxfront.png" alt="">
+   
+</div>
+
+
+
+
+";s:5:"mtime";i:1605253680;s:6:"markup";s:254:"<div class="copyToOculus">
+    <p class="mainText">정밀하고 시원한 VR <br>
+        동영상 감상 유저를 위한 <br>최고의 성능</p>
+</div>
+<div class="pimaxbox">
+    <img src="../../../storage/app/media/pimaxfront.png" alt="">
+   
+</div>";s:4:"code";N;s:5:"title";s:5:"Pimax";s:3:"url";s:6:"/pimax";s:6:"layout";s:5:"pimax";}}

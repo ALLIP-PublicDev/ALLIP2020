@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+
+.copyToOculus {
+    text-align: center;
+    background-color: white;
+}
+
+.mainText {
+    font-size: 4vw;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    line-height: 5vw;
+    margin-bottom: -3vw;
+}
+
+.wrap {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.67);
+    height: 200vw;
+    z-index: 1;
+}
+
+
+div img {
+    z-index: 10;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    display: inline-block;
+
+
+}
+
+.pimaxbox {
+
+    background-color: transparent;
+    margin: 0 30%;
+}
+
+.pimaxback1 {
+    background-color: #161724;
+    width: 90%;
+    height: 35vw;
+    margin: 0 auto;
+    margin-top: 23vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 600;
+    padding-top: 10vw;
+    color: white;
+    font-family: sans-serif;
+    line-height: 4vw;
+
+}
+
+.moreview {
+    width: 20vw;
+    height: 5vw;
+    margin: 0 auto;
+
+
+}
+
+.moreview > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 2vw;
+    line-height: 5vw;
+    background-color: #3fbe37;
+    border-radius: 5vw;
+    font-size: 2vw;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.moreview > a:hover,
+.moreview > a:focus {
+    text-decoration: none;
+    color: white;
+    background-color: #7ed979;
+    border-radius: 5vw;
+
+}
+
+
+
+
+
+.pimaxback2 {
+    width: 90%;
+    height: 55vw;
+    background-color: #282a48;
+    z-index: -10;
+    margin-top: 17vw;
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+
+}
+
+.pimaxback2 > ul,
+.pimaxback2 > ul > li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.pimaxback2 > ul {
+    width: 45%;
+    float: right;
+    box-sizing: border-box;
+    padding-top: 30vw;
+    padding-right: 5vw;
+    text-align: right;
+}
+
+
+
+
+
+.pimaxback2 > ul li:last-child {
+    text-align: center;
+}
+
+.pimaxback2 > ul li h1 {
+    font-size: 2.3vw;
+    line-height: 3vw;
+    color: white;
+}
+
+.pimaxback2 > ul li h3 {
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: white;
+}
+
+.pimaxback2 > ul li img {
+    position: absolute;
+    bottom: 5vw;
+    left: 5vw;
+    width: 50%;
+    box-shadow: 2px 1px 10px rgba(13, 44, 70, 0.9);
+}
+
+
+ul > .moreview {
+    text-align: center;
+}
+
+.align-right {
+    margin-right: 0;
+}
+
+
+
+.pimaxback3 {
+
+    width: 100%;
+    height: 50vw;
+    border-bottom: 1px solid #000;
+
+    position: absolute;
+    top: 75vw;
+
+    z-index: 0;
+}
+
+.back3text {
+    font-size: 3vw;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-left: 5vw;
+    margin-bottom: 5vw;
+    color: #000000;
+}
+
+.pimaxback3 ul {
+    margin: 0 auto;
+}
+
+.pimaxheader {
+    background-color: #161724;
+}
+
+
+.slick-slide {
+    margin: 0px 20px;
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.sns .slick-slider {
+    width: 90%;
+    left: 50%;
+    margin-left: -960px;
+}
+
+
+
+.slick-slide {
+    display: block;
+}
+
+.picture li a {
+    display: block;
+    width: 100%;
+    background-color: ;
+    font-size: 15px;
+}
+
+.picture img {
+    width: 93%;
+    position: inherit;
+}
+
+/*back3end*/
+
+
+.pimaxback4 {
+    width: 100%;
+    height: 30vw;
+    background-color: #161724;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    top: 125vw;
+    z-index: 0;
+    color: white;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 6vw 6vw 0 0;
+    font-size: 2vw;
+}
+
+.pimaxback4 a {
+    display: block;
+    position: absolute;
+    bottom: 10vw;
+    right: 5vw;
+    font-size: 3vw;
+}
+
+.pimaxback4 .backfont1 {
+    font-size: 2vw;
+}
+
+.pimaxback4 a:hover,
+.pimaxback4 a:active {
+    color: white;
+    background-color: #3fbe37;
+    text-decoration: inherit;
+    border-radius: 20vw;
+}
+
+.pimaxback4 span {
+    width: 100%;
+    height: 10vw;
+    display: block;
+    font-size: 5vw;
+    border: 3px solid #3fbe37;
+    border-radius: 10vw;
+    line-height: 9.8vw;
+    padding: 0 2vw;
+}
+
+.pimaxback4 img {
+    width: 60vw;
+    position: absolute;
+    bottom: -10vw;
+    left: 0;
+    display: block;
+
+}
+
+
+.pimaxback5 {
+    background-color: red;
+    height: 30vw;
+    width: 100%;
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top: 205vw;
+    z-index: 999;
+}
+
+.pimaxback5 ul li {
+    font-size: 1vw;
+    list-style: none;
+    float: left;
+    width: 30%;
+}
+
+.pimaxback5 ul {
+    width: 100%;
+}

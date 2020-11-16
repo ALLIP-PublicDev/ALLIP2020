@@ -1,0 +1,16 @@
+@charset "utf-8";
+body,div,header,aside,fieldset,legend,footer,p,nav,h1,h2,h3,h4,h5,h6,ul,ol,li,a,img,span,input,dl,dd,dt {margin:0 0 0 0;padding:0 0 0 0 ;border : none;}
+ul,ol,li{list-style: none;}
+
+body{font-family: "nas","Helvetica Neue","Apple SD Gothic Neo","Malgun Gothic","맑은 고딕","돋움",sans-serif;font-size: 12px;color:#333333;}
+a{color:#333333; text-decoration: none;}
+a:hover{color:#333333;}
+.blind {position: absolute;left: -9999px;font-size: 0;width: 0;height: 0;text-indent: -9999px;overflow: hidden;}
+/*그림간 간격이 자연스럽게 생기는걸 없애주는 역할이다.*/
+li{vertical-align: middle;}
+@font-face {   
+    font-family: "nas";
+    src: local("나눔스퀘어"), url("../font/NanumSquare.woff"), url("../font/NanumSquare.eot"), url("../font/NanumSquare.ttf");
+}
+img{vertical-align: middle;}
+address{font-style: normal;}

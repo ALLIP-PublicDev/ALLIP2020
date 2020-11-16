@@ -1,0 +1,440 @@
+@charset "utf-8";
+/*documemt css*/
+
+header {background-color: #f1e8d9;line-height: 50px; border-bottom: 2px solid #3b0a00;}
+.center {width : 1200px; margin : 0 auto ;position: relative; }
+header .logo {padding :20px 20px ;}
+html, body, .moon {overflow-y: visible;}
+
+header .gnb::after{content:"";clear: both ; display: block; }
+header .gnb {position: absolute; top : 30px;left : 220px;  }
+header .gnb>ul>li{float : left;text-align: center;}
+header .gnb>ul>li>a{padding : 0 0 18px 0 ;display : block; width : 150px; color:#3b0a00; font-size: 20px;margin-right:10px;font-weight: bold;}
+header .subDetail{position: absolute;z-index: 100; top : 70px;text-align: center;display: none;}
+header .subDetail ul{ border-left: 2px solid #3b0a00;border-right: 2px solid #3b0a00; }
+header .subDetail li:hover a{background-color: #3b0a00; color : white ;background-image: url(../images/eye_03.png);background-repeat: no-repeat; background-position: 10px center;z-index: 99999;}
+header .subDetail a{font-size: 15px;font-weight:700; color :#3b0a00;padding : 10px;box-sizing: border-box;display: block ;width : 158px;line-height: 30px;}
+
+header .subDetail1{position: absolute;z-index: 100; left : -5px; }
+header .subDetail2{position: absolute;z-index: 100;  left : 155px;}
+header .subDetail3{position: absolute;z-index: 100; left : 315px;}
+header .subDetail4{position: absolute;z-index: 100; left : 475px;}
+.gnbbg{position:absolute; background-color:rgba(241, 232, 217, 0.6); width : 100%;height : 200px; top :98px;left : 0 ; z-index: 50;border-bottom: 2px solid #3b0a00;display: none;padding-bottom: 10px; }
+
+fieldset {position : absolute; right : 100px ; top : 30px;box-sizing: border-box; padding : 0 30px;line-height: 45px; }
+
+
+fieldset input { border-radius: 30px; width :140px;border : 2px solid #3b0a00;background-color: white;padding : 0 10px;}
+fieldset p {display: inline; }
+fieldset p img{padding-bottom: 2px;width : 20px; }
+
+.visual { overflow: hidden;  position : relative;min-width:  1200px; height : 90vw;max-height: 650px;}
+.mainVisual li { position : absolute; width : 100%;left : 0 ; top : 0 ; background-position: center; text-indent: -9999px; overflow: hidden; background-repeat: no-repeat;}
+.mainVisual li a{display: block; height : 650px; min-width: 1200px;}
+.mainVisual .visual01 {background-image: url(../images/mainbanner.jpg);}
+.mainVisual .visual02 {background-image: url(../images/mainbanner2.jpg);left : 100% ;}
+.mainVisual .visual03 {background-image: url(../images/sogogi.jpg);left : 200% ;}
+
+.buttonList {width : 100px; position: absolute; left : 50%;margin-left: -40px; bottom : 20px;}
+.buttonList li{width : 15px; height : 15px; border-radius: 30px; background-color: white; text-indent: -500px; overflow: hidden; float: left ;margin-right: 15px;cursor: pointer;}
+
+.buttonList li.on{background-color:#3b0a00; }
+
+
+.sub {background-color: #edecec;overflow: hidden;}
+.sub li{text-indent: -999px;margin-top: 10vw ;}
+.sub li a{  overflow: hidden; background-repeat: no-repeat;}
+.sub ul li:first-child a{background-image: url(../images/subbanner1.jpg);float : left ;}
+.sub ul li:last-child a{background-image: url(../images/subbanner2.jpg);}
+.sub li a{display: block ;height : 400px;width : 600px;}
+
+
+
+
+.subsub{text-align: center;background-color: #edecec; width : 100%; }
+.subsub::after{content: ""; clear : both ; display: block ;}
+
+.subsub li a{display : block ; float : left;width : 300px;padding-top: 400px;background-repeat: no-repeat;background-position: center center;font-size: 18px;padding-bottom: 30px;}
+.subsub li:nth-child(1) a{background-image: url(../images/222.jpg);}
+.subsub li:nth-child(2) a{background-image: url(../images/333.jpg);}
+.subsub li:nth-child(3) a{background-image: url(../images/444.jpg);}
+.subsub li:nth-child(4) a{background-image: url(../images/2.png);background-size: 48%;background-position: center 120px;}
+.subsub li:nth-child(5) a{background-image: url(../images/mara.png);}
+.subsub li:nth-child(6) a{background-image: url(../images/veitnam.png);}
+.subsub li a span{display: block ; padding-top: 20px;  color :brown;font-size:30px;font-weight: bold;padding-bottom: 20px;}
+.salevisual { width : 100%; background-image: url(../images/salebanner.png);background-repeat: no-repeat; margin-top: 50px; text-indent: -500px; overflow: hidden;background-position: center;min-width: 1200px;}
+.salevisual a{display: block;height : 400px;padding : 100px 0 ; }
+.banner600{font-size: 20px; margin-bottom: 50px;}
+.banner600::after{content:""; display: block; clear: both;}
+.ad1 {width : 600px; padding-top: 600px; text-align: center;background-image: url(../images/banner601.jpg);background-repeat: no-repeat;float:left;}
+
+.ad2 {width : 600px; padding-top: 600px; text-align: center;background-image: url(../images/banner602.jpg);background-repeat: no-repeat;float:left;}
+
+
+.snstext {text-align: center;min-width: 1200px;padding-bottom: 50px;margin-top:100px; }
+
+
+.last:after{content: ''; display: block ; clear : both ;}
+.last li{float : left;text-align: center;}
+
+.last li a{display: block ; width : 250px;margin: 0 25px 0 25px;  font-size: 20px; padding-top: 240px;color :gray;padding-bottom: 50px;}
+.last li:nth-child(4) a{background-image: url(../images/snsimg4.jpg);background-repeat: no-repeat;background-size: 100%;}
+.last li:nth-child(3) a{background-image: url(../images/snsimg3.jpg);background-repeat: no-repeat;background-size: 100%;}
+.last li:nth-child(2) a{background-image: url(../images/snsimg2.jpg);background-repeat: no-repeat;background-size: 100%;}
+.last li:nth-child(1) a{background-image: url(../images/snsimg1.jpg);background-repeat: no-repeat;background-size: 100%;}
+
+
+
+footer {background-color: #f2e6d7;}
+footer  ul{overflow: hidden; width : 1200px; padding-top: 20px;}
+footer  ul  li {float :left ;padding-right: 20px;}
+footer  ul  li {float :left ;padding-right: 20px;}
+footer  ul  li:first-child {padding-left:200px; }
+footer  address {line-height: 20px; padding-left: 200px; padding-top: 10px; background-image: url(../images/logo.jpg);background-repeat: no-repeat;background-position:20px 20px;}
+footer{border-top: 2px solid #3b0a00;}
+
+
+
+
+
+footer  ul  li {float :left ;padding-right: 20px; font-size: 18px;font-weight: 600;}
+footer  ul  li:first-child {padding-left:200px;}
+footer  address {line-height: 20px; padding-left: 200px; padding-top: 10px; background-image: url(../images/logo.jpg);background-repeat: no-repeat;background-position:20px 20px;}
+footer{border-top: 2px solid #3b0a00;padding-bottom: 20px;}
+
+   
+
+
+
+
+
+
+
+/*body class="ready"*/
+
+.ready #container div{background-image: url(../images/ready_03.gif);height :700px ; background-repeat: no-repeat; background-position: center top ;min-width: 1200px; }
+
+
+/*body class="contact"*/
+.contact #container .long { background-image: url(../images/mainban.jpg);width : 100%; height : 380px ;min-width: 1200px ;background-position: center ; }
+
+.contact #container ul {width : 1200px ; height : 600px ;padding-top: 140px;}
+.contact #container ul li{float : left ; padding : 20px 10px ;transition : background-color 1s;}
+.contact #container ul li:hover {background-color: #f1e8d9;}
+.contact #container .ceo{width : 100% ; min-width: 1200px ; height : 470px ; background-position: center ; background-repeat: no-repeat; background-image: url(../images/ceo.gif);margin: 150px 0 ; }
+
+.contact #container .cjlogo{width : 100% ; min-width: 1200px ; height : 470px ; background-position: center ; background-repeat: no-repeat; background-image: url(../images/cj.gif);margin-bottom: 250px ;}
+
+/*body class="event"*/
+.event #container .long{width : 100% ; min-width: 1200px ; height : 460px ; background-position: center top ; background-repeat: no-repeat; background-image: url(../images/mainban2.jpg);}
+.event #container p:nth-of-type(2){padding-bottom: 150px;}
+
+.event #container p:last-child {text-align: center;padding-bottom: 150px;}
+.event #container p:last-child a{font-size: 24px ;display: inline-block; background-color: #db5e6b;box-sizing: border-box;width : 150px ;height : 50px ;line-height: 50px ;border-radius: 30px ; color : white ;}
+.event #container p:last-child a:hover { background-color: #80232d; color : white; }
+.event #container p:last-child span{font-size: 24px; padding: 5px 10px 0 0 ;  }
+
+
+/*body class="product"*/
+
+
+.product #container .dback{background-image: url(../images/82823.jpg); width : 100%; height : 380px;background-repeat: no-repeat; background-position: center; min-width: 1200px;margin-bottom: 50px;}
+
+.product #container .pasta{text-align: center;padding-bottom: 0px ; }
+.product #container .pasta span { width : 150px ; height : 50px ; background-color: #ffa506;display: block;border-radius: 30px ;color: white ; font-weight: 700;font-size: 30px ; line-height: 50px ; }
+
+
+
+/*첫번째줄 마덜 파트*/
+.individual {min-width: 1200px;height : 400px ; }
+.individual::after {content: "";display: block ; clear : both ; }
+
+.product #container .mother>li{ position: relative; float : left ;text-align: left ; margin-left: 50px ;margin-top: 20px; background-color: #f1e8d9;border-radius: 30px ; width : 230px ; height :400px;padding-top: 230px;box-sizing: border-box;  background-image: url(../images/firsthover.jpg); background-position: -999px; background-repeat: no-repeat;transition :  height 0.3s, margin-top 0.3s;}
+/*자세히 보기 버튼*/
+.product #container .mother li a{ width : 130px; height : 20px ; background-color: #fff; position : absolute;top : 500px; right : 30px ;border-radius: 30px; text-align: center; font-size: 14px; line-height: 20px;color : #6e4907; font-weight: 700;display:none;}
+
+
+.product #container .mother li:nth-child(1) .positionbg{position : absolute;top : -90px ; left : 23px;  background-image:  url(../images/1.png);background-repeat: no-repeat; background-position: center bottom;display: block ;width : 190px;  height : 300px;cursor: pointer;background-size: 70%;}
+.product #container .mother>li:nth-child(2) .positionbg{position : absolute;top : -90px ; left : 23px;  background-image:  url(../images/2.png) ;background-repeat: no-repeat; background-position: center 40px;display: block ;width : 190px;  height : 300px;cursor: pointer;}
+.product #container .mother>li:nth-child(3) .positionbg{position : absolute;top : -90px ; left : 23px;  background-image:  url(../images/3.png);background-repeat: no-repeat; background-position: center bottom;display: block ;width : 190px;  height : 300px;cursor: pointer;}
+.product #container .mother>li:nth-child(4) .positionbg{position : absolute;top : -90px ; left : 23px;  background-image:  url(../images/4.png);background-repeat : no-repeat; background-position: center 40px;display: block ;width : 190px;  height : 300px;cursor: pointer;}
+
+/*마덜끝 */
+
+/*파덜시작*/
+
+
+.product #container .father2 span { width : 150px ; height : 50px ; background-color: #17c5f1;display: block;border-radius: 30px ;color: white ; font-weight: 700;font-size: 30px ; line-height: 50px ; }
+
+.individual {margin : 100px 0 ;}
+.individual::after {content: "";display: block ; clear : both ; }
+
+.product #container .father>li{ position: relative; float : left ;text-align: left ; margin-left: 50px ;margin-top: 20px; background-color: #c6e3ec;border-radius: 30px ; width : 230px ; height :400px;padding-top: 230px;box-sizing: border-box;  background-image: url(../images/second-hover_03.jpg); background-position: -999px; background-repeat: no-repeat;transition :  height 0.3s, margin-top 0.3s;}
+
+.product #container .father li a{ width : 130px; height : 20px ; background-color: #fff; position : absolute;top : 500px; right : 30px ;border-radius: 30px; text-align: center; font-size: 14px; line-height: 20px;color : #030c5c; font-weight: 700;display:none;}
+
+.product #container .father li:nth-child(1) .positionbg{top : -85px ; left : 23px;  background-image:  url(../images/heba.png);height : 300px;}
+
+.product #container .father>li:nth-child(2) .positionbg{top : -85px ; left : 23px;  background-image:  url(../images/podo.png); height :300px;}
+
+.product #container .father>li:nth-child(3) .positionbg{top : -85px ; left : 23px;  background-image:  url(../images/yori.png);height : 300px;}
+
+.product #container .father>li:nth-child(4) .positionbg{top : -85px ; left : 23px;  background-image:  url(../images/ssal.png);height : 300px;}
+/*파덜끝*/
+
+/*브라덜시작*/
+.product #container .brother2 span { width : 150px ; height : 50px ; background-color: #e52f2f;display: block;border-radius: 30px ;color: white ; font-weight: 700;font-size: 30px ; line-height: 50px ; }
+
+.individual {margin : 100px 0 ; }
+.individual::after {content: "";display: block ; clear : both ; }
+
+.product #container .brother li a {color : #000;}
+.product #container .brother>li{background-color: #f0d2ce;background-image: url(../images/thirdhover_03.jpg);}
+
+
+.product #container .brother li:nth-child(1) .positionbg{top : -75px ; left : 23px;  background-image:  url(../images/spicy.png);height : 300px;}
+
+.product #container .brother>li:nth-child(2) .positionbg{top : -75px ; left : 23px;  background-image:  url(../images/sea.png); height : 300px;}
+
+.product #container .brother>li:nth-child(3) .positionbg{top : -75px ; left : 23px;  background-image:  url(../images/southern.png);height : 300px;}
+
+.product #container .brother>li:nth-child(4) .positionbg{top : -75px ; left : 23px;  background-image:  url(../images/ear.png);height : 300px;cursor: pointer;}
+/*브라덜끝*/
+.product #container .mother .cord{font-size: 20px;text-align: center; font-weight: 700;}
+
+.g {margin-left: 50px;margin-top: 30px;}
+.many {margin-left : 28px; }
+select {padding-left: 5px;margin-bottom: 30px;background-color: transparent;border-radius: 30px;  }
+.cord + li { padding-left: 30px; }
+.cord + li + li{padding-left : 25px; }
+.mother .cordnext,.cord{font-size: 15px;font-weight: 600;color: #6e4907;}
+.father .cordnext,.cord{color: #030c5c;}
+.brother .cordnext,.cord{color: #000;}
+
+option { background-color: transparent;text-align:right;}
+
+
+/*media start*/
+/*header .mognb{display: none;}
+@media screen and (max-width:640px){header .gnb, header fieldset { display: none;}header .mognb{display: block ;}img { width : 100%;}}*/
+/*media end*/
+
+/*순서를 표기하겠다.
+1. 모바일에 슬라이스가 필요한것들을 먼저 슬라이스 한다
+2. 햄버거메뉴(모바일에 따로 사용될 텍스트들을 html 에 작성하여 넣는다
+3. pc 버전에서 숨길것들을 숨긴다. display :none 으로, 여기서 디스플레이 논은 시각장애인들에게도 안보이므로 신경쓰지 말고 사용할수 있도록 한다.
+4. 미디어 스크린을 쓰고 그 안에 내용물을 기입해 나갈준비를한다 - 무너진곳이 없는지
+전반적으로 한번 확인한다.
+5. 미디어 스크린 안쪽에 사용되는 내용 모바일버전에서 숨길것들을 숨긴다.
+6. 미디어 스크린 안쪽에 사용되는 내용 - 모바일 버전에서 보일것들을 보인다
+7. img 태그를 width 값 100%를 주고 그에 맞게 조정을 실시한다.
+그리고 그에 따르는 무너지는것들을 vw,em , wh 등을 사용하여 조절하고, 이미지가 변경되거나 없어저도 되는부분들을 하나하나 체크해가면서 수정한다.
+
+이것과 관련하여 스타벅스 홈페이지에서 소스보기를 통하여 참고 할 수 있도록 한다.*/
+
+
+
+@media screen and (min-width:640px) {
+.product #container .mother>li:hover .hoverbg{display: block;}
+.product #container .mother>li:hover{background-position: center; width : 230px ; height :440px;padding-top: 250px;box-sizing: border-box;margin-top: 0;}
+.product #container .brother>li:hover{height :450px;}
+}
+
+/*momomomomomomomomo  mobile*/
+.circle,.mognb ,.mosubsub,.mofooter,.ddong {display:none; }
+
+
+ /*^ PC ver . eraser ^*/
+@media screen and (max-width :640px) {
+        html, body {overflow-y: hidden; position: relative; height: 100%;}
+    /*view port*/
+    .product #container .dback{background-image:none; min-width:inherit;height : 50vw; margin-bottom: 0;}
+
+
+    footer{display: none;}
+    .ad2 {display: none;}
+    .subsub li:nth-child(3){display: none;}
+    .subsub li:nth-child(4){display: none;}
+    .buttonList {display: none;}
+    fieldset { display: none;}
+    .gnb {display: none;}
+    .sub li:first-child{display: none;}
+     .last li:nth-child(4) a{display: none;}
+    .last li:nth-child(3) a{display: none;}
+    /*^ Mo ver . eraser ^*/
+    .circle {display: inherit;}
+    .center{width : 100%;position: static;}
+    .mognb,.ddong { display: block;}
+    .logo {text-align: center;}
+    .logo img{width : 30%;}
+    header {line-height: inherit; background-color: transparent;border: none;}
+    header .logo{padding : 5vw 0 ; }
+    header .center{position : relative;z-index: 300;background-color: #f1e8d9; border-bottom: 2px solid #3b0a00; }
+    
+    .ddong li{font-size: 3vw; font-weight: 700;text-align: center;}
+    .mognb li a{padding-top: 10%; width : 15%;background-size: 50%; }
+    div.center{position: relative; }
+    .jjab { text-align: center;font-size: 3vw;font-weight: 600;}
+    .mognb .menu1>a{ position: absolute;top:4vw; left : 20px ; background-image: url(../images/menuicon.gif); background-repeat: no-repeat; background-position: center center;}
+    .mognb .expand2>a{ position: absolute;top : 4vw ; right : 20px ; background-image: url(../images/expand.gif); background-repeat: no-repeat; background-position: center ;}
+    .mosale{padding: 10vw 0;}
+    .ddong .realmenu {padding-top: 2px;text-align: left;box-sizing: border-box;}
+    .ddong .realmenu>li{text-align: inherit;border-bottom: 1px solid #000;
+    }
+    .ddong .realmenu>li>a{padding-left: 5vw;font-size: 5.5vw; }
+    .ddong .realmenu li a {display: block; width : 100%;background-color: #f2e6d7;box-sizing: border-box;line-height: 15vw;padding-top: 0px;font-size: 5vw;}
+    
+    .ddong .realmenu .ddd{ border-top:1px solid #000; display: none;}
+  
+    .ddong{width : 80%; height : 100%;position: absolute; z-index: 200;overflow-y:auto;background-color: #f1e8d9;left : -100%;top:0;padding-top: 22vw;background-size: 150%; background-repeat: no-repeat;background-position: center;box-sizing: border-box;}
+     .mobg {width: 100%; height: 100%; position: absolute; top: 0; left:-100% ; background-color: rgba(0, 0, 0, 0.75); z-index: 100;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    .visual{min-width: inherit;max-height: inherit;height : 118vw;}
+    .mainVisual .visual01 a{display: block;  min-width: inherit; height : 120vw;background-image: url(../images/mmainban.jpg);background-size: 100%;background-repeat: no-repeat;}
+    .mainVisual .visual02 a{display: block;  min-width: inherit; height : 120vw;background-image: url(../images/mainbanner4.jpg);background-size: 100%;background-repeat: no-repeat;}
+    .mainVisual .visual03 a{display: block;  min-width: inherit; height : 120vw;background-image: url(../images/sogogi2.jpg);background-size: 100%;background-repeat: no-repeat;}
+    
+  
+    
+    .sub li a{width : 100% ; height : 63vw;background-size: 100%; }
+    
+    
+    .subsub li a{width : 45%;background-size: 70%;font-size: 5vw;padding-top:70%;margin-left: 5%;}
+    .subsub li a span{font-size: 5vw;}
+    .mara {display: inherit;}
+    .mara a{display: block ; background-size: 200%;}
+    .veit {display: block; background-position: center 38%;}
+    .subsub li:nth-child(1) a{background-position: center 15%;}
+    .subsub li:nth-child(2) a{background-position: center 15%;margin-left : 0 ; margin-right: 5%;}
+    .subsub li:nth-child(5) a{/*background-size: 110%;background-position: center 7%;*/display: none;}
+    .subsub li:nth-child(6) a{/*background-size: 115%;background-position: center top;margin-left : 0 ; margin-right: 5%;*/display: none;}
+    /*use reason : detail definition selected ranking */
+    
+    .salevisual {margin-top : 5vw; height : 30vw;background-size: 170%; min-width: inherit;background-position: center; }
+    
+    .banner600{font-size: 20px; margin-bottom: 50px;}
+     .ad1{background-size: 100%; width : 100%;padding-top: 100%;}
+    .snstext {margin: 80px 0 ; min-width: inherit;padding: 0 0 0 0 ; margin-bottom: 10vw;}
+    .snstext img{width : 10% ; height : 5vw;}
+   
+    .last li {width : 50%;}
+    body #container .last>li>a {background-size: 100%;width :80%;background-position: center 3vw;}
+    body #container .last>li>a {font-size: 4vw;margin:0 0 0 5vw; padding-top: 90%;}
+
+
+    
+   
+    
+    .mofooter{display: block; width : 100% ; background-color: #f2e6d7;border-top: 2px solid #3b0a00; padding-top: 10px;padding-bottom: 10px;}
+    .mofooter ul{overflow: hidden; width : 100%;}
+    .mofooter ul:first-child li{font-size: 3vw; font-weight: 600;}
+    .mofooter ul li{float : left ; margin : 0 2%;width : 15%;text-align: center;font-size: 2.5vw;padding-bottom: 10px;}
+    .mofooter ul+ul li{width : 16%;}
+    .mofooter ul+ul li:nth-child(2){width : 20%; margin-left: 0; }
+    .mofooter ul+ul li:last-child{width : 25%;margin-left: 0;}
+    .mofooter address{line-height: 30px; width : 70%;padding-left: 30%; background-image: url(../images/logo.jpg);background-repeat: no-repeat; background-position: 5% 3vw ;background-size: 25%;font-size: 2vw;padding-bottom: 20px;}
+                    /*Ready Page*/
+    .ready{background-color:#f2e6d7 }
+    .ready #container div{background-image: url(../images/readymobile.jpg);width : 100% ; height : 120vw;min-width: inherit; background-size: 100%;}
+                    /*Ready Page*/
+                       /*Event Page*/
+ .event #container .long{width : 100% ; min-width: inherit; height : 48vw ;background-size: 250%}
+    .event #container p {text-align: center;}
+.event #container p:nth-of-type(1){width : 50%;}
+.event #container p:nth-of-type(2){padding-bottom:7vw;}
+.event #container p:last-child {margin-bottom: 10%;padding-bottom: 0;}
+.event #container p:last-child a{font-size: 4vw ;display: inline-block; width : 25% ;height : 10% ;}
+
+.event #container p:last-child span{font-size: 4vw; padding: 0vw 2vw 0 0 ;  }
+                       /*Event Page End*/ 
+                       /*us Page start*/
+.contact #container .long { background-size: 250%; width : 100%; height : 45vw ;min-width: inherit ;background-position: center ;background-repeat: no-repeat;}
+
+.contact #container ul {overflow: hidden; width : 100% ; height : 100%;padding-top: 0;}
+.contact #container ul li{float : left ; padding : 20px 0 ;width : 100%;}
+.contact #container ul li a{display: block; width : 80%;margin : 0 auto ; }  
+    
+/*.contact #container .ceo{ min-width: inherit; height : 50vw; margin: 0 0 ;background-size: 160%; }*/
+    .contact #container .ceo{display: none;}
+/*.contact #container .cjlogo{ min-width: inherit; height : 50vw ; margin-bottom: 0 ;background-size: 160%;}*/
+    .contact #container .cjlogo{display: none;}
+                       /*Us Page End*/ 
+                       /*product Page start*/ 
+  
+.product #container .circle{width : 100%; height : 40vw ;padding-left:0;margin-bottom: 20px;box-sizing: border-box;background-color:#ca885d;}
+.product #container .circle div{background-image: none;   width :100%; height : 1vw ;text-align: center;}
+.product #container .circle div{color :#f1e8d9 ; font-size:4vw;}
+.product #container .circle div p{font-size: 5vw;font-weight: bold;padding-top: 15px;line-height: 10vw; }
+    /*갈색 동그라미 끝*/
+
+
+.product #container .pasta{text-align: center;padding-bottom: 0px ; }
+.product #container .pasta span { width : 33% ; height : 40px ; background-color: #ffa506;display: block;border-radius: 30px ;color: white ; font-weight: 700;font-size: 30px ; line-height: 40px ; }
+                        /*마덜*/
+.individual {min-width: 100%;height : 100%; }
+.individual::after {content: "";display: block ; clear : both ; }
+.product #container .mother>li{margin : auto 5%; background-color: #f1e8d9;border-radius: 30px ; width : 39% ; height :62vw;padding-top: 35%;margin-bottom:70px; box-sizing: border-box;  background-image: url(../images/firsthover.jpg); background-position: center top;}
+    
+.product #container .mother li:nth-child(1) .positionbg{top : -15.5% ; left : 8%;  width : 83%;  height:73%;background-size: 70%;background-position: center top;}
+.product #container .mother>li:nth-child(2) .positionbg{top : -15.5% ; left : 8%;  width : 83%;  height:73%;background-size: 70%;background-position: center top;}
+.product #container .mother>li:nth-child(3) .positionbg{top : -15.5% ; left : 8%;  width : 83%;  height:73%;background-size: 70%;background-position: center top;}
+.product #container .mother>li:nth-child(4) .positionbg{top : -15.5% ; left : 8%;  width : 83%;  height:73%;background-size: 70%;background-position: center top;}
+    /*마덜끝 */
+    
+   /*파덜시작*/
+.product #container .father2 span { width : 33% ; height : 40px ; background-color: #17c5f1;}
+.product #container .father>li{background-position: center;background-image: url(../images/second-hover_03.jpg);}
+
+.product #container .father>li{background-image: url(../images/second-hover_03.jpg); background-position: center top;}
+    /*파덜끝*/
+    /*브라덜시작*/
+.product #container .brother2 span { width : 33% ; height : 40px ; background-color: #e52f2f;}
+.product #container .brother>li{background-position: center;background-image: url(../images/thirdhover_03.jpg);}
+.product #container .brother>li{background-image: url(../images/thirdhover_03.jpg); background-position: center top;}
+    /*브라덜끝*/
+.g {margin-left: 24%;margin-top: 5%;}
+.many {margin-left : 12%; }
+select {padding-left: 2%;margin-bottom: 5%;background-color: transparent;border-radius: 30px;  }
+    .cord + li  {padding-left: 10%;} 
+.cord + li + li{padding-left : 10%; }
+
+
+img{width : 100%;}}
+/*@media1 end*/
+
+   /*@media2 start*/
+    @media screen and (max-width :500px) {
+    .product #container .mother>li{margin : auto 15%; background-color: #f1e8d9;border-radius: 30px ; width : 65vw ; height :95%;padding-top: 65%;margin-bottom: 25%; box-sizing: border-box;  background-image: url(../images/firsthover.jpg); background-position: center top;background-size: 120%;}
+     .product #container .father>li{background-image: url(../images/second-hover_03.jpg);}
+     .product #container .brother>li{background-image: url(../images/thirdhover_03.jpg);}
+        .product #container .mother li:nth-child(1) .positionbg{height:80%;}
+        
+        
+        .product #container .mother>li:nth-child(3){display: none;}
+        .product #container .mother>li:nth-child(4){display: none;}
+        .pasta,.father2,.brother2{ padding-left: 32%;}
+        div .individual {margin-bottom: 0;}
+}
+    /*@media2 end*/
+
+      /*product Page End*/ 
